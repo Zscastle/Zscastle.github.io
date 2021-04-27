@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+</head>
+<body>
+	<h2>Android Studio导入从gitHub上下载的项目出现错误的解决方法</h2>
+	<p>本文主要用于安卓大作业开发（页面简陋，但我暂时没有时间找模板。。。）</p>
+	<p>如果有更好的办法，一定要给我说啊。。。</p>
+	<ul>
+		<li>
+		 首先，gitee相当于国内版的github，由于GFW的缘故，国内访问github速度很慢，所以采用gitee
+		</li>
+		<li>
+			第一步，从gitee下载下来源码，可以使用Git命令，可以直接点击DownLoadZip下载，建议使用git命令，一旦用熟了，使用起来非常方便
+		</li>
+		<li>
+			<p>第二步，打开一个你自己的Android Studio项目，找到如图所示的四个文件夹和文件，复制</p>
+			<img src="images/1.png">
+		</li>
+		<li>
+			<p>第三步，进入从gitee下载的项目文件夹内，将刚才复制的内容，粘贴到其中，替换所有文件</p>
+			<img src="images/2.png">
+		</li>
+
+		<li>
+			<p>第四步，使用android studio打开项目，两种方式都可以</p>
+			<img src="images/3.png">
+		</li>
+
+		<li>
+			<p>这时会出现如图所示的两个错误</p>
+			<img src="images/4.png" style="width: 1200px">
+		</li>
+
+		<li>
+			<p>第五步，开始解决问题1</p>
+			<p>进入项目目录下面的.idea文件夹，用记事本打开，按图修改，保存, 退出重新打开项目</p>
+			<img src="images/6.png">
+			<img src="images/7.png">
+		</li>
+
+		<li>
+			<p>第六步，开始解决问题2,如图，在左上角File-Settings-Version Control里面，把右面那个东西删掉，点击ok</p>
+			<img src="images/5.png">
+		</li>
+
+
+		<li>完成，运行一下试试</li>
+
+	</ul>
+</body>
+</html>
